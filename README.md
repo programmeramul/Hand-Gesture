@@ -75,8 +75,24 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install dependencies
+
+
 pip install -r requirements.txt
 
 # Create images folder and add your images
 mkdir -p assets/images
 # Copy your .jpg / .png files into assets/images/
+
+holo-gallery/
+├── main.py              # Application entry point
+├── camera.py            # Webcam capture & management
+├── gesture_detector.py  # Hand tracking + gesture recognition
+├── image_viewer.py      # Image loading, zoom, rotation, transitions
+├── hud.py               # Neon HUD overlay rendering
+├── settings.py          # Tkinter settings window
+├── config.py            # All configuration constants
+├── requirements.txt     # Python dependencies
+├── .gitignore
+├── assets/
+│   └── images/          # Place your images here
+└── README.md

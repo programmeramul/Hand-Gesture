@@ -1,0 +1,7 @@
+{
+  "image_folder": "assets/images",
+  "camera_index": 0,
+  "swipe_threshold": 80,
+  "pinch_sensitivity": 0.02,
+  "fullscreen": false
+}

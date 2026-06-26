@@ -67,7 +67,7 @@ Control your images using hand gestures detected from your webcam — no mouse o
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/holo-gallery.git
+git clone https://github.com/programmeramul/Hand-Gesture.git
 cd holo-gallery
 
 # Create virtual environment
